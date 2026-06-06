@@ -1,0 +1,53 @@
+# ---- OS / 编辑器 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.idea/
+.vscode/
+*~
+
+# ---- 环境与密钥(切勿提交) ----
+.env
+.env.*
+*.local
+app.toml
+*.pem
+*.key
+secrets/
+
+# ---- 日志与临时文件 ----
+*.log
+logs/
+tmp/
+temp/
+
+# ---- 依赖与构建产物 ----
+# Go
+/bin/
+*.exe
+*.out
+vendor/
+
+# Node / 前端
+node_modules/
+dist/
+build/
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- 数据与上传(运行时数据,不入库) ----
+uploads/
+data/
+mysql-data/
+*.sqlite
+*.db
+
+# ---- Docker 运行时 ----
+docker-compose.override.yml
